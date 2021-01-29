@@ -56,11 +56,13 @@ checks the equality without type conversion. if a and b are of different types, 
 === b immediately returns false without an attempt to convert them.
 17. This code snippet will log "How are you?" to the console because 2 == true
 evaluates to false but 2 by itself evaluates to true due to type conversion.
+18. See js file
 19. The forloop in modifyArray will run 3 times. 
 The first time, it will compute doSomething(1, x*2) => function(1+2) => 6. 
 The second time, it will compute doSomething(2, x*2) => function(2+2) => 8.
 The third time, it will compute doSomething(3, x*2) => function(3+2) => 10. 
 So the output of modifyArray([1,2,3], doSomething) is [6, 8, 10]
+20. see js file
 21. The output will be 1 4 3 2, each on a seperate line. The first line will print
 1 to the console. Since JavaScript is single-threaded, asynchronous callbacks are
 assigned to a message placed in a message queue. When no code is currently executing
